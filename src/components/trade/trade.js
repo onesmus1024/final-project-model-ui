@@ -8,7 +8,7 @@ import './trade.css';
 function Trade() {
 
     const predictedValue = 0;
-    const [predicted, setPredicted] = useState(predictedValue);
+    const [predicted, setPredicted] = useState(0);
 
     const [trade, setTrade] = useState({
         close: '',
@@ -60,15 +60,6 @@ function Trade() {
     };
 
 
-
-
-
-
-
-
-
-
-
     return (
         <div className="trade">
         <div className="trade__form">
@@ -92,7 +83,7 @@ function Trade() {
         </div>
         <div className="trade__result">
             <h1>Result</h1>
-            <p>Predicted Value: {predictedValue}</p>
+            <p>Predicted Value: {predicted.prediction}</p>
 
         </div>
         </div>
