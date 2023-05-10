@@ -18,10 +18,15 @@ h1{
     margin-bottom: 20px;
 }
 
-p {
+.home p {
 
     font-size: 1.5rem;
     margin-bottom: 20px;
+    color:black;
+    font-weight: bold;
+    text-align: center;
+
+
 }
 
 

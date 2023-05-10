@@ -6,8 +6,6 @@ import './trade.css';
 
 
 function Trade() {
-
-    const predictedValue = 0;
     const [predicted, setPredicted] = useState(0);
 
     const [trade, setTrade] = useState({
@@ -62,7 +60,9 @@ function Trade() {
 
     return (
         <div className="trade">
+        
         <div className="trade__form">
+                <h1 className="trade__title">Algo Trading</h1>
             <form onSubmit={handleSubmit}>
             <label htmlFor='close'>Close</label>
             <input type="text" id="close" name="close" value={trade.close} onChange={e => setTrade({ ...trade, close: e.target.value })}  placeholder='Enter a close value' />

@@ -6,8 +6,7 @@ function Home() {
     <div className="home">
       <h1 className="home__title">Algo Trading</h1>
       <p>
-        Algo Trading is a web application that allows users to create and
-        backtest trading algorithms.
+        Real-Time Price Prediction Algorithm: Unleashing the Power of Data to Anticipate Market Prices
       </p>
     </div>
   );
