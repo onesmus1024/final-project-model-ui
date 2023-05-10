@@ -1,0 +1,36 @@
+
+
+.nav{
+  background-color: #333333;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+
+
+
+.nav .nav__links{
+    margin-top: 20px;
+}
+.nav .nav__links ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.nav .nav__links ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}

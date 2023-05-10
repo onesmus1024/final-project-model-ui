@@ -1,0 +1,15 @@
+
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+
+.home__title{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
