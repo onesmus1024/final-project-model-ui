@@ -5,7 +5,23 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 90vh;
+    background-image: url("https://images.unsplash.com/photo-1642790551116-18e150f248e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1633&q=80");
+    opacity: 0.8;
+    background-size: cover;
+
+}
+
+h1{
+   
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+p {
+
+    font-size: 1.5rem;
+    margin-bottom: 20px;
 }
 
 
